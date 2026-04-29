@@ -12,7 +12,5 @@ try {
 } catch (err) {
   console.log("DB skipped");
 }
-app.get("/", (req,res)=>{
-  res.send("Backend is running successfully 🚀");
-});
+
 module.exports = pool;
